@@ -1,0 +1,102 @@
+body {
+  background-color: #e52165;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+.card {
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+.container-1 {
+  height: 400px;
+  width: 700px;
+  background-color: #0d1137;
+}
+.header {
+  padding: 10px 8px;
+  color: white;
+}
+.input-field {
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+}
+.input-field label {
+  color: white;
+  font-size: 20px;
+  margin: 2px 0;
+}
+.input {
+  border-radius: 10px;
+  height: 30px;
+  border: 1px solid white;
+  font-size: 20px;
+  width: 100%;
+}
+.date {
+  width: fit-content;
+  border: 1px solid white;
+  border-radius: 12px;
+  height: 30px;
+  padding: 5px;
+}
+
+.button {
+  float: right;
+  margin-right: 10px;
+  outline: none;
+  background-color: rgba(229, 33, 101, 0.8);
+  border: none;
+  padding: 20px;
+  color: white;
+  font-size: 1rem;
+  border-radius: 12px;
+  transition: 0.3s ease-out;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: rgba(229, 33, 101);
+  transition: 0.3s ease-out;
+}
+
+.container-2{
+  position: relative;
+}
+
+.container-2 p {
+  text-align: center;
+  font-size: 1.1rem;
+}
+.date-input {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+}
+.list {
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  background-color: #0d1137;
+  padding: 10px 5px;
+  margin: 30px 0px;
+  font-size: 1.5rem;
+  color: white;
+  position: relative;
+  display: flex;
+}
+.lists {
+  margin-block-start: 0;
+  list-style: none;
+  padding-inline-start: 10px;
+}
+.title{
+    color: #e52165;
+}
+.distance{
+  margin: 3px 0;
+}
+.float{
+  position: absolute;
+  right: 5px;
+}
